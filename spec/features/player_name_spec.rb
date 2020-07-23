@@ -2,6 +2,7 @@ require 'spec_helper'
 
 #start a fight by entering our names and seeing them
 
+
 feature 'players' do
 
    scenario "create a new user" do
@@ -15,5 +16,6 @@ feature 'players' do
     click_button 'Submit'
     expect(page).to have_content ("Lulu vs. Zogo")
   end
+
 end
 
