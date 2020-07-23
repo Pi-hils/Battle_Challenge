@@ -7,5 +7,5 @@ def sign_in_and_play
        fill_in :player_1_name, with: 'Lulu'
        fill_in :player_2_name, with: 'Zogo'
     end
-    click_button 'Submit'
+    click_button "Submit"
 end
