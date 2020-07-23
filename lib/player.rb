@@ -1,3 +1,5 @@
+require_relative './player'
+
 class Player
     attr_reader :name
 
