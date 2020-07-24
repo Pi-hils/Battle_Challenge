@@ -6,7 +6,7 @@ require 'spec_helper'
 feature 'players' do
 
    scenario "create a new user" do
-        sign_in_and_play
+   sign_in_and_play
     expect(page).to have_content ("Lulu vs. Zogo")
   end
 end
