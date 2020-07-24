@@ -11,6 +11,6 @@ feature 'To_attack,' do
       sign_in_and_play
       click_button 'ATTACK'
       expect(page).not_to have_content 'Zogo: 40HP'
-      expect(page).to have_content 'Zogo: 30HP'
+      expect(page).to have_content 'Zogo: 50 HP'
     end
   end
