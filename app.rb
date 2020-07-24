@@ -3,7 +3,7 @@ require_relative './lib/player'
 require_relative './lib/game'
 
 class Battle < Sinatra::Base
-  enable :sessions 
+  enable :sessions
   # get '/' do
     #  'Testing infrastructure working! 234'
     # end
@@ -31,8 +31,8 @@ class Battle < Sinatra::Base
       @player_1 = $player_1
       @player_2 = $player_2
       # @player_1.attack(@player_2)
-      Game.new.attack(@player_2)
+      Game.new(@player_1,@player_2).attack(@player_2)
       erb :attack
-    end 
+    end
 
 end
