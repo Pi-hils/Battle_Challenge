@@ -1,4 +1,5 @@
-require 'player'
+ require 'player'
+require'game'
 
 describe Player do
     subject(:lulu) { Player.new('Lulu') }
@@ -13,13 +14,6 @@ describe Player do
     describe '#hit_points' do
       it "gives the total of the hit points" do
         expect(lulu.hit_points).to eq described_class::DEFAULT_HIT_POINTS
-      end
-    end
-
-    describe "#attack" do
-      it "player has been attacked and damaged" do
-        expect(zogo).to receive(:receive_damage)
-        lulu.attack(zogo)
       end
     end
 
