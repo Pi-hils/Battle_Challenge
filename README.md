@@ -27,7 +27,7 @@
  Full user story can be found [here](https://github.com/makersacademy/course/blob/master/intro_to_the_web/getting_started_with_battle.md)
 
 ## User Story
-[![Image from Gyazo](https://i.gyazo.com/3b525e2805513c6eb9ba46d9d4e7343f.png)](https://gyazo.com/3b525e2805513c6eb9ba46d9d4e7343f)
+[![Image from Gyazo](https://i.gyazo.com/fad00bf1ecbb41671ac167498387cde6.png)](https://gyazo.com/fad00bf1ecbb41671ac167498387cde6)
 
 
 ### What I learned or had opportunity to revisit
